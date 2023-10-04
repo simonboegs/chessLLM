@@ -1,0 +1,3 @@
+Here is the position. Uppercase letters are white pieces, lowercase letters are black pieces. Knights are represented as N/n, pawns as P/p, kings as K/k, queens as Q/q, rooks as R/r, and bishops as B/b. "None" means no piece occupies that square. Here are all the squares on the board and the pieces that occupy them.
+{pieces}
+{color} to move.

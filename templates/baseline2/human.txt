@@ -1,0 +1,3 @@
+Here is the position. {color} to move.
+Periods are empty squares. Lower case letters are black pieces, upper case letters are white pieces. 
+{board}

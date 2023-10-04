@@ -7,3 +7,4 @@ Experiments
 | name                           | board repr | acc |
 | ------------------------------ | ---------- | --- |
 | baseline - no chain of thought | raw FEN    |  2% | 
+| baseline - no chain of thought | acii       |  0% | 

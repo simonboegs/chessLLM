@@ -1,12 +1,15 @@
 from langchain.chat_models import ChatOpenAI
+import os
+
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
+
 
 def get_response(formatted_prompt, model="gpt-3.5-turbo", temp=1):
     model = ChatOpenAI(
         model_name=model, 
-        openai_api_key="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",
-        temperature=0
-        # model_kwargs={"temperature": temp}
-        )
+        temperature=0,
+        openai_api_key=OPENAI_API_KEY
+    )
     response = model(formatted_prompt).content
     return response
 
